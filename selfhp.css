@@ -1,0 +1,107 @@
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p,
+form, input, div {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Avenir Next", "Hiragino Kaku Gothic ProN W3", sans-serif;
+  text-align: center;
+}
+
+li {
+  list-style: none;
+}
+
+/* header */
+header {
+  background-color: black;
+  height: 160px; /*画像をいれたらauto*/
+  /* widthは必要ない？ */
+}
+
+.header-logo a {
+  display: inline-block;
+}
+/*  */
+
+/* menu */
+.menu-list {
+  display: inline-block;
+  background-color: black;
+  padding: 25px;
+  margin:180px 30px;
+  width:23%;
+}
+/*  */
+
+/* top-lead */
+.top-lead {
+  font-size: 46px;
+  margin: 20px auto 200px;
+}
+/*  */
+
+/* profile-logo */
+.profile-logo {
+  margin-bottom: 50px;
+  /* 画層いれたら大きさ調整 */
+}
+/*  */
+
+/* profile */
+.profile {
+  margin-bottom: 180px;
+}
+
+.profile p {
+  font-size: 22px;
+  margin-bottom: 30px;
+}
+/*  */
+
+/* footer */
+footer {
+  background-color: black;
+  color:white;
+  font-size:16px;
+}
+
+.footer-content {
+  overflow: hidden;
+  width: 50%;
+  margin: auto;
+}
+
+.footer-navigation {
+  margin:20px;
+  float:left;
+  line-height: 2em;
+}
+
+.footer-navigation ul {
+  text-align: left;
+}
+
+.footer-address {
+  float: right;
+  margin-top:37px;
+  margin-bottom: 20px;
+  line-height: 1.5em;
+  text-align: left;
+}
+
+.footer-address td {
+  padding-right: 10px;
+}
+
+
+.footer-navigation a {
+  padding-top:30px;
+  text-decoration: none;
+  color: white;
+}
+
+
+/*  */
